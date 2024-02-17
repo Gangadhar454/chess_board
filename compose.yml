@@ -1,0 +1,10 @@
+version: '3.4'
+services:
+  chess_board:
+    build:
+      context: .
+      dockerfile: ./DockerFile
+    volumes:
+      - .:/app
+    ports:
+      - "8000:8000"

@@ -16,7 +16,9 @@ Including another URLconf
 """
 from django.contrib import admin
 from django.urls import path
+from .views import ChessBoardView
 
 urlpatterns = [
     path('admin/', admin.site.urls),
+    path('chess/<str:slug>/', ChessBoardView.as_view())
 ]
