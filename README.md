@@ -6,7 +6,6 @@
 
 - [Introduction](#introduction)
 - [Requirements](#requirements)
-- [Installion](#installation)
 - [Getting Started](#gettingstarted)
 
 ## Introduction
