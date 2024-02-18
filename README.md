@@ -14,9 +14,9 @@ chessboard contains pieces such as Rook, Queen, Bishop, and Knight, and their po
 ![Screenshot from 2024-02-17 23-59-06](https://github.com/Gangadhar454/chess_board/assets/36883246/0e5e3a59-10be-4597-8541-7bf2423c3c31)
 
 ### How the API calculates the valid Moves
-1. First it will calculate all the possible moves of all the 4 pieces. For Example Bishop can move either in straigth line or diagnol, so the possible moves of bishop is straight moves + diagonal moves
+1. First it will calculate all the possible moves of all the 4 pieces. For Example, Queen can move either in straight line or diagonal, so the possible moves of Queen are straight moves + diagonal moves
 2. Then it will substract the possible moves of other 3 pieces from slug's moves i.e (slug's moves - remaining 3 pieces moves)
-3. the second step ensures that it removed the positions which can be attacked by other pieces.
+3. The second step ensures that it removes the positions which can be attacked by other pieces.
 
 
 ## Requirements
@@ -26,7 +26,7 @@ chessboard contains pieces such as Rook, Queen, Bishop, and Knight, and their po
 
 ## Getting Started
 1. Go to the main directory (where the make file exists)
-2. build the backend services
+2. build the services
    ```bash
    make build
 3. if step-2 fails
